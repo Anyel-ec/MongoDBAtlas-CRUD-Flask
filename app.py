@@ -5,12 +5,12 @@ from bson import ObjectId
 from dotenv import load_dotenv
 import os
 
-load_dotenv()  # Cargar las variables de entorno desde el archivo .env
+load_dotenv()  # change this to the path of your .env file
 
 app = Flask(__name__)
 
-uri = os.getenv("MONGO_URI")  # Acceder a la variable de entorno
-# Intenta conectar con MongoDB Atlas
+uri = os.getenv("MONGO_URI")  # access the MONGO_URI environment variable
+# intent to connect to the database
 try:
     client = MongoClient(uri)
     db = client.test_database 
@@ -20,14 +20,14 @@ except ConnectionFailure:
     print("Error de conexión a MongoDB Atlas")
 
 
-# Ruta para mostrar todas las personas
+# route the user to the index page
 @app.route('/')
 def show_people():
     people = collection.find()
     return render_template('index.html', people=people)
 
 
-# Ruta para agregar una nueva persona
+# route
 @app.route('/add', methods=['GET', 'POST'])
 def add_person():
     """
