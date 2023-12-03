@@ -65,6 +65,7 @@ your-project/
 |   |-- add.html
 |   |-- edit.html
 |-- requirements.txt
+|-- app.py
 |-- .env
 |-- other files and folders...
 ```
@@ -75,7 +76,7 @@ Feel free to contribute to this project. Create a fork, make your changes, and s
 
 ## Support
 
-For any questions or concerns, you can reach us on WhatsApp at [+593939470232](https://wa.me/593939470232).
+For any questions or concerns, you can reach us on WhatsApp at [+593 99 167 5490](https://wa.me/593991675490).
 
 
 
