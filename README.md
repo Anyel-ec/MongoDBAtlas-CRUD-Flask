@@ -3,13 +3,16 @@
 This project is a simple CRUD application developed with Flask and uses MongoDB Atlas as the database.
 
 ## Screenshots
-
-
+### MongoDB Atlas
 <!-- agregar imagenes al readme.md -->
 ![MongoBD](doc/mongo.png)
+### Add people
 ![ADD](doc/add.png)
+### View data
 ![ADD](doc/guardado2.png)
+### Update people
 ![Editar](doc/editar.png)
+### Delete people
 ![Eliminar](doc/eliminar.png)
 
 
